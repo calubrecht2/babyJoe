@@ -37,6 +37,7 @@ public class BabyJoeApp extends JFrame
 
 		pack();
 		setLocationRelativeTo(null);
+		canvas_.requestFocus();
 	}
 
 	void exit()

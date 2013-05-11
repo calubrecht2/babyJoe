@@ -124,6 +124,10 @@ public class BabyJoeCanvas extends Canvas3D
 		{
 			return;
 		}
+		if (keyChar == 65535 /*Alt*/) //KeyEvent.VK_ALT)
+		{
+			return;
+		}
 		if (forceUpperCase_ && Character.isLetter(keyChar)
 				&& Character.isLowerCase(keyChar))
 		{
